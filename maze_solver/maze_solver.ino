@@ -40,8 +40,8 @@ const int SENSOR_FAR_RIGHT = 41;
 const int LINE_DETECTED = HIGH;
 
 // Set to true if a side drives backwards when it should go forwards.
-const bool INVERT_LEFT_MOTOR  = false;
-const bool INVERT_RIGHT_MOTOR = false;
+const bool INVERT_LEFT_MOTOR  = true;
+const bool INVERT_RIGHT_MOTOR = true;
 
 // Speeds (0 - 255)
 const int BASE_SPEED   = 140; // straight-line speed
